@@ -43,7 +43,7 @@ def notice_rickrolled_victim(link):
     # GET RICKROLLED
     db.visit_link(link)
 
-    return redirect("https://youtu.be/dQw4w9WgXcQ")
+    return redirect("https://www.youtube.com/watch?v=vTIIMJ9tUc8")
 
 @app.route('/data/<string:link>')
 def view_rickroll_success(link):
